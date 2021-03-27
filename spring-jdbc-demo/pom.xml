@@ -9,14 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-transation-demo</artifactId>
+    <artifactId>spring-jdbc-demo</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-tx</artifactId>
+            <artifactId>spring-core</artifactId>
             <version>5.2.0.RELEASE</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-beans</artifactId>
@@ -29,18 +30,35 @@
             <version>5.2.0.RELEASE</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>5.2.0.RELEASE</version>
-        </dependency>
-
+<!--        spring jdbc start-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
             <version>5.2.0.RELEASE</version>
         </dependency>
 
+<!--        事务 transation 和 异常控制-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>5.2.0.RELEASE</version>
+        </dependency>
+<!--        spring-jdbc end-->
+
+<!--        数据库连接-->
+<!--        postgres 数据库连接-->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.9</version>
+        </dependency>
+<!--        数据库连接池-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.10</version>
+        </dependency>
     </dependencies>
+
 
 </project>

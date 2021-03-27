@@ -8,9 +8,10 @@
     <artifactId>springdemo</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>spring-transation-demo</module>
+        <module>spring-jdbc-demo</module>
     </modules>
-
 
 </project>
