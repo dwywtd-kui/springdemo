@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="person1" class="com.haan.di.Person">
+        <constructor-arg name="name" value="libai"/>
+    </bean>
+
+    <bean id="person2" class="com.haan.di.Person">
+        <constructor-arg type="java.lang.String" value="zhangfei"/>
+        <constructor-arg type="java.lang.Integer" value="22"/>
+    </bean>
+
+    <bean id="person3" class="com.haan.di.Person">
+        <constructor-arg index="0" value="zhangfei"/>
+        <constructor-arg index="1" value="22"/>
+        <constructor-arg index="2" value="1008611"/>
+    </bean>
+
+    <bean id="test1" class="com.haan.test.Test1"/>
+    <bean id="test2" class="com.haan.test.Test2"/>
+</beans>
