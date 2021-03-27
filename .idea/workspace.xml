@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43d6fa96-7a4e-4b25-bade-70f728314c4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jdbc-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jdbc-demo/src/main/java/spring/jdbc/demo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jdbc-demo/src/main/java/spring/jdbc/demo/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jdbc-demo/src/main/java/spring/jdbc/demo/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jdbc-demo/src/main/resources/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-jdbc-demo/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-transation-demo/src/main/java/spring/transaction/demo/MyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-transation-demo/src/main/resources/application.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-transation-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-transation-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-transation-demo/src/main/java/spring/transaction/demo/programmatic/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-transation-demo/src/main/java/spring/transaction/demo/programmatic/AccountDaoImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +105,7 @@
       <updated>1616742402126</updated>
       <workItem from="1616742404564" duration="4166000" />
       <workItem from="1616812413275" duration="2079000" />
-      <workItem from="1616815978662" duration="7114000" />
+      <workItem from="1616815978662" duration="8298000" />
     </task>
     <servers />
   </component>
@@ -136,27 +122,27 @@
     </state>
     <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1616820553598" />
     <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1616743386786" />
-    <state x="775" y="391" key="Github.ShareDialog" timestamp="1616826787218">
+    <state x="775" y="391" key="Github.ShareDialog" timestamp="1616826935955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="775" y="391" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616826787218" />
+    <state x="775" y="391" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616826935955" />
     <state x="775" y="391" key="Github.ShareDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1616756483828" />
-    <state width="1867" height="325" key="GridCell.Tab.0.bottom" timestamp="1616823423665">
+    <state width="1867" height="280" key="GridCell.Tab.0.bottom" timestamp="1616829756126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616823423665" />
-    <state width="1867" height="325" key="GridCell.Tab.0.center" timestamp="1616823423664">
+    <state width="1867" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616829756126" />
+    <state width="1867" height="280" key="GridCell.Tab.0.center" timestamp="1616829756125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616823423664" />
-    <state width="1867" height="325" key="GridCell.Tab.0.left" timestamp="1616823423664">
+    <state width="1867" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616829756125" />
+    <state width="1867" height="280" key="GridCell.Tab.0.left" timestamp="1616829756124">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616823423664" />
-    <state width="1867" height="325" key="GridCell.Tab.0.right" timestamp="1616823423665">
+    <state width="1867" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616829756124" />
+    <state width="1867" height="280" key="GridCell.Tab.0.right" timestamp="1616829756125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616823423665" />
+    <state width="1867" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616829756125" />
     <state x="835" y="349" width="535" height="341" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1616821209211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
