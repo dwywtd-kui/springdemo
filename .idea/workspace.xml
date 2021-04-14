@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43d6fa96-7a4e-4b25-bade-70f728314c4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/annotation/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/annotation/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/annotation/MyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +70,20 @@
       <recent name="D:\DDUP\99demo\java\springdemo\spring-jdbc-demo\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MyApplication (1)">
+    <configuration name="MyApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.haan.springdemo.annotation.MyApplication" />
+      <module name="spring-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.haan.springdemo.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spring.jdbc.demo.MyApplication" />
       <module name="spring-jdbc-demo" />
@@ -78,19 +97,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyApplication (1)" />
         <item itemvalue="Application.MyApplication" />
       </list>
     </recent_temporary>
@@ -106,6 +128,7 @@
       <workItem from="1616742404564" duration="4166000" />
       <workItem from="1616812413275" duration="2079000" />
       <workItem from="1616815978662" duration="8298000" />
+      <workItem from="1618402954988" duration="1641000" />
     </task>
     <servers />
   </component>
@@ -117,32 +140,36 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616821039372" />
-    <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1616820553598">
+    <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1618404506840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1616820553598" />
-    <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1616743386786" />
+    <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618404506840" />
     <state x="775" y="391" key="Github.ShareDialog" timestamp="1616826935955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="391" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616826935955" />
     <state x="775" y="391" key="Github.ShareDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1616756483828" />
-    <state width="1867" height="280" key="GridCell.Tab.0.bottom" timestamp="1616829756126">
+    <state width="1867" height="281" key="GridCell.Tab.0.bottom" timestamp="1618404241500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1867" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616829756126" />
-    <state width="1867" height="280" key="GridCell.Tab.0.center" timestamp="1616829756125">
+    <state width="1867" height="281" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618404241500" />
+    <state width="1867" height="281" key="GridCell.Tab.0.center" timestamp="1618404241500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1867" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616829756125" />
-    <state width="1867" height="280" key="GridCell.Tab.0.left" timestamp="1616829756124">
+    <state width="1867" height="281" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618404241500" />
+    <state width="1867" height="281" key="GridCell.Tab.0.left" timestamp="1618404241499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1867" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616829756124" />
-    <state width="1867" height="280" key="GridCell.Tab.0.right" timestamp="1616829756125">
+    <state width="1867" height="281" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618404241499" />
+    <state width="1867" height="281" key="GridCell.Tab.0.right" timestamp="1618404241500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1867" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616829756125" />
+    <state width="1867" height="281" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618404241500" />
     <state x="835" y="349" width="535" height="341" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1616821209211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -151,14 +178,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="745" y="133" width="610" height="773" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616821328169" />
-    <state x="117" y="101" key="new project wizard" timestamp="1616816005538">
+    <state x="117" y="101" key="new project wizard" timestamp="1618403040151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="117" y="101" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1616816005538" />
-    <state x="117" y="101" key="new project wizard/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1616742515030" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1616823626333">
+    <state x="117" y="101" key="new project wizard/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618403040151" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1618403066442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616823626333" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618403066442" />
   </component>
 </project>

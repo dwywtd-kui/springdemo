@@ -12,6 +12,15 @@
     <modules>
         <module>spring-transation-demo</module>
         <module>spring-jdbc-demo</module>
+        <module>spring-annotation</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.2.7.RELEASE</version>
+        </dependency>
+    </dependencies>
 
 </project>
