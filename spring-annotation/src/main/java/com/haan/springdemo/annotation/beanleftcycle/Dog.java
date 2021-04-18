@@ -1,4 +1,4 @@
-package com.haan.springdemo.annotation;
+package com.haan.springdemo.annotation.beanleftcycle;
 
 /**
  * @author hanliukui

@@ -1,4 +1,4 @@
-package com.haan.springdemo.annotation;
+package com.haan.springdemo.annotation.beanleftcycle;
 
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;

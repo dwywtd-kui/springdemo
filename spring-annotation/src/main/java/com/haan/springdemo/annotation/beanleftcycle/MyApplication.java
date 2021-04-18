@@ -1,4 +1,4 @@
-package com.haan.springdemo.annotation;
+package com.haan.springdemo.annotation.beanleftcycle;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
