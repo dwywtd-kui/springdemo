@@ -1,0 +1,35 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    配置User对象创建-->
+    <bean id="user" class="com.haan.springdemo.xmldemo.User"></bean>
+
+<!--    配置Book对象创建，基于setter注入属性
+        使用 property 完成属性注入
+        name：类里面属性名称
+        value：向属性注入的值,基本数据类型
+		ref: 向属性注入的值，引用数据类型
+-->
+    <bean id="book" class="com.haan.springdemo.xmldemo.Book">
+        <property name="name" value="book1"/>
+        <property name="price" value="21.9"/>
+    </bean>
+
+
+    <!--    配置Order对象创建，基于有参构造函数注入属性
+        使用 constructor-arg 完成属性注入
+        name：类里面属性名称
+        value：向属性注入的值,基本数据类型
+		ref: 向属性注入的值，引用数据类型
+    -->
+    <bean id="order" class="com.haan.springdemo.xmldemo.Order">
+        <constructor-arg name="name" value="order1"/>
+        <constructor-arg name="address" value="山东省济南市"/>
+    </bean>
+
+<!--    基于p名称-->
+    <bean id="user3" class="com.haan.springdemo.xmldemo.User3" p:name="user3" p:age="12"/>
+
+</beans>

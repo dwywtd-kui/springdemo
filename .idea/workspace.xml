@@ -5,34 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43d6fa96-7a4e-4b25-bade-70f728314c4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/annotation/propertiesassigning/MyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/annotation/propertiesassigning/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/resources/person.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/xmldemo/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/xmldemo/MyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/xmldemo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/xmldemo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/xmldemo/User3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/resources/xmldemo/beans.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/annotation/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/annotation/beanleftcycle/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/annotation/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/annotation/beanleftcycle/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/annotation/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/annotation/beanleftcycle/MyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-annotation/target/classes/com/haan/springdemo/annotation/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-annotation/target/classes/com/haan/springdemo/annotation/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-annotation/target/classes/com/haan/springdemo/annotation/MyApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/haan/HelloWord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/haan/MyMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/haan/beanlifecycle/LiftCycleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/haan/di/AddressInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/haan/di/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/haan/di/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/haan/di/Student2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/haan/test/ITest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/haan/test/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/haan/test/Test2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/haan/test01/AnimalService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/haan/test01/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/haan/test01/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/haan/test01/IAnimal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/haan/test01/Pig.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +72,7 @@
       <recent name="D:\DDUP\99demo\java\springdemo\spring-jdbc-demo\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyApplication (1)">
+  <component name="RunManager" selected="Application.MyApplication (3)">
     <configuration name="MyApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.haan.springdemo.annotation.propertiesassigning.MyApplication" />
       <module name="spring-annotation" />
@@ -113,6 +92,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.haan.springdemo.annotation.beanleftcycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyApplication (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.haan.springdemo.xmldemo.MyApplication" />
+      <module name="spring-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.haan.springdemo.xmldemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,19 +138,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyApplication (3)" />
         <item itemvalue="Application.MyApplication (1)" />
         <item itemvalue="Application.MyApplication (2)" />
         <item itemvalue="Application.MyApplication (1)" />
@@ -182,6 +177,7 @@
       <workItem from="1618731124435" duration="140000" />
       <workItem from="1618733822357" duration="2856000" />
       <workItem from="1618752499266" duration="2196000" />
+      <workItem from="1618836880821" duration="4597000" />
     </task>
     <servers />
   </component>
