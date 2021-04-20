@@ -1,0 +1,30 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    <bean id="book" class="com.haan.springdemo.xmldemo.lifecycle.Book">-->
+<!--        <property name="name" value="静夜诗"/>-->
+<!--        <property name="author" value="李白"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="book2" class="com.haan.springdemo.xmldemo.lifecycle.Book">-->
+<!--        <property name="name" value="静夜诗"/>-->
+<!--        <property name="author" value="李白"/>-->
+<!--        <constructor-arg name="name" value="郭论"/>-->
+<!--        <constructor-arg name="author" value="郭德纲"/>-->
+<!--    </bean>-->
+
+    <!--
+        init-method:声明bean的初始化方法
+        destroy-method:声明bean的销毁方法
+    -->
+    <bean id="book3" class="com.haan.springdemo.xmldemo.lifecycle.Book" init-method="initMethod" destroy-method="destroyMethod">
+        <property name="name" value="静夜诗"/>
+        <property name="author" value="李白"/>
+    </bean>
+
+<!--    声明Bean后置处理器-->
+    <bean id="myBeanPostProcessor" class="com.haan.springdemo.xmldemo.lifecycle.MyBeanPostProcessor"/>
+
+</beans>

@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43d6fa96-7a4e-4b25-bade-70f728314c4d" name="Default Changelist" comment="" />
+    <list default="true" id="43d6fa96-7a4e-4b25-bade-70f728314c4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/xmldemo/lifecycle/MyBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/resources/xmldemo/lifecycle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/xmldemo/lifecycle/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/xmldemo/lifecycle/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/xmldemo/lifecycle/LifeCycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/xmldemo/lifecycle/LifeCycleTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +70,20 @@
       <recent name="D:\DDUP\99demo\java\springdemo\spring-jdbc-demo\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyApplication (3)">
+  <component name="RunManager" selected="Application.LifeCycleTest">
+    <configuration name="LifeCycleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.haan.springdemo.xmldemo.lifecycle.LifeCycleTest" />
+      <module name="spring-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.haan.springdemo.xmldemo.lifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.haan.springdemo.annotation.propertiesassigning.MyApplication" />
       <module name="spring-annotation" />
@@ -143,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LifeCycleTest" />
         <item itemvalue="Application.MyApplication (3)" />
         <item itemvalue="Application.MyApplication (1)" />
         <item itemvalue="Application.MyApplication (2)" />
         <item itemvalue="Application.MyApplication (1)" />
-        <item itemvalue="Application.MyApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +187,7 @@
       <workItem from="1618733822357" duration="2856000" />
       <workItem from="1618752499266" duration="2196000" />
       <workItem from="1618836880821" duration="4599000" />
+      <workItem from="1618922627414" duration="3275000" />
     </task>
     <servers />
   </component>
