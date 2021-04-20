@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43d6fa96-7a4e-4b25-bade-70f728314c4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/xmldemo/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/xmldemo/MyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/xmldemo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/xmldemo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/java/com/haan/springdemo/xmldemo/User3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-annotation/src/main/resources/xmldemo/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="43d6fa96-7a4e-4b25-bade-70f728314c4d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,15 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,7 +167,7 @@
       <workItem from="1618731124435" duration="140000" />
       <workItem from="1618733822357" duration="2856000" />
       <workItem from="1618752499266" duration="2196000" />
-      <workItem from="1618836880821" duration="4597000" />
+      <workItem from="1618836880821" duration="4599000" />
     </task>
     <servers />
   </component>
